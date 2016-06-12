@@ -173,7 +173,7 @@ LRESULT CALLBACK WndProc(HWND hwnd, UINT message, WPARAM wParam, LPARAM lParam)
             changePtsSize = TRUE;
             break;
 
-        case VK_ESCAPE :    // Virtual key code for 'Arrow Down'
+        case VK_ESCAPE :    // Virtual key code for 'Esc'
             // Close the application
             DestroyWindow( hwnd );
             return 0;
